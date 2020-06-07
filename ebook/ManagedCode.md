@@ -8,11 +8,20 @@
 
 Hasil akhir dari pemrograman **CLR-Compliance a**dalah **managed code** atau **managed module** yaitu berupa **executable** atau **dynamic link library**. Perbedaan antara keduanya adalah pada **executable** tersedia sebuah **entrypoint**  sebagai tempat eksekusi pertama sementara pada **dynamic link library** tidak terdapat sebuah **entrypoint**.
 
-Kompilasi IL code ke Managed Module :
+Kompilasi **IL code** ke **Managed Module** :
+
+![](../assets/CompileILCode.png)
+
+Pada sebuah **managed** **module** terdapat beberapa **part** :
+
+| Element     | Description                                                  |
+| ----------- | ------------------------------------------------------------ |
+| PE32 Header | Standar **PE Header** untuk **Windows**, jika **header** menggunakan **format PE32 file** bisa berjalan pada versi **32-bit** atau **64-bit**  sistem operasi **Windows**. Jika **header** menggunakan **format PE32+** maka **binary file** hanya bisa dieksikusi pada versi **64-bit** sistem operasi **windows**. Untuk **modules** yang hanya memiliki **IL code**, seluruh informasi yang ada pada **header PE32(+)** diabaikan. Untuk **modules** yang mengandung **native CPU code** maka **header** mengandung informasi tentang **native** **CPU code** yang dituju. |
+| CLR Header  | Mengandung informasi tentang pembuatan **managed module** itu sendiri. Pada **header** terdapat informasi versi **CLR** yang dibutuhkan dan lokasi dari **module’s** **metadata**, **resources**, dan sebagainya. |
+| Metadata    | Mengandung informasi yang menjelaskan **class** dan **types** yang digunakan di dalam sebuah **managed code** baik itu **executable** ataupun **dynamic link library.** |
+| IL Code     | Kode yang diproduksi kompiler, saat **runtime CLR** akan menerjemahkan **IL code** ke **native code**. |
 
 
-
-Pada sebuah managed module terdapat beberapa part.
 
 ---------------------
 
