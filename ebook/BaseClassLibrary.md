@@ -18,7 +18,15 @@ Ilustrasi **Stack** pada **Common Type System (CTS)** [1]
 
 Gambar di bawah ini adalah ***Ilustrasi Memory Heap*** pada ***Common Type System* (CTS)** :
 
+![](../assets/MemoryHeap.png)
 
+Pada ilustrasi gambar di atas terdapat tiga **object** dalam **Heap** : 
+
+Pada gambar 2 salah satu **object** dalam **heap** sudah tidak digunakan lagi, 
+
+Pada gambar 3 **Garbage Collector**menemukan terdapat **object** yang sudah tidak digunakan lagi dan 
+
+Pada gambar ke 4 **object** pada **heap** sudah dibersihkan oleh **Garbage Collector**.
 
 ---------------------
 
