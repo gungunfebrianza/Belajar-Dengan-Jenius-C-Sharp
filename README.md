@@ -42,7 +42,7 @@ namespace HelloWorld {
 
 Hasil dari kode di atas memiliki perbedaan :
 
-![](C:\Users\Gun Gun Febrianza\Pictures\Belajar-Dengan-Jenius-C-Sharp\assets\pinvoke1.PNG)
+<img src="C:\Users\Gun Gun Febrianza\Pictures\Belajar-Dengan-Jenius-C-Sharp\assets\pinvoke1.PNG" style="zoom:67%;" />
 
 Langkah-langkah dalam melakukan **P/Invoke** :
 
@@ -51,6 +51,8 @@ Langkah-langkah dalam melakukan **P/Invoke** :
 - Temukan **address** dari **function**
 - **Push Arguments** ke dalam **stack** kemudian **marshaling data**
 - **Transfer Control** untuk **unmanaged code**
+
+
 
 ### P/Invoke Callback
 
@@ -62,4 +64,27 @@ Pada **managed code** pemberian **parameter** harus di delegasikan
 
 **P/Invoke** membuat **callback thunk**
 
-​	**Passes address of thunk** sebagai **callback parameter**.
+​	**Passes address of thunk** sebagai **callback parameter**.<img src="C:\Users\Gun Gun Febrianza\Pictures\Belajar-Dengan-Jenius-C-Sharp\assets\pinvoke-callback.PNG" alt="pinvoke-callback" style="zoom:67%;" />
+
+### Callback Example
+
+```c#
+public class SampleClass {
+	delegate bool CallBack(int hwnd, int lParam);
+    
+	[DllImport("user32.dll")]
+	static extern int EnumWindows(CallBack x, int lParam);
+    
+	// report the window handle
+	public bool Report(int hwnd, int lParam) {
+		Console.Write(“Window handle is ” + hwnd);
+		return true;
+	}
+    
+	public static void Main() {
+		CallBack myCallBack = new CallBack(Report);
+		EnumWindows(myCallBack, 0);
+	}
+}
+```
+
