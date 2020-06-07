@@ -12,9 +12,9 @@
 
 - ##### [Common Language Infrastructure (CLI)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/CLI.md)
 
-- ##### .Net Framework
+- ##### [.Net Framework](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/.Net.md)
 
-- ##### Common Language Runtime (CLR)
+- ##### [Common Language Runtime (CLR)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/CLR.md)
 
 - **Framework Base Class (FBC)**
 
