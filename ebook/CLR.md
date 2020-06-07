@@ -31,6 +31,12 @@ Selain itu **Common Language Runtime** juga menyediakan berbagai pelayanan diant
 6.	Manajemen **exception** dan **error**.
 **CLR** juga mempunyai peran dalam pengaturan **garbage collection** yang secara otomatis menghapus terjadinya **memory leaks**. Fenomena **memory leaks** terjadi saat sebuah **objects** sudah tidak lagi mengacu pada **Garbage Collection** yang selanjutnya akan dibersihkan agar tercipta manajemen **memory** yang efisien.
 
+![](../assets/ManagedUnmanagedCode.png)
+
+**Common Language Runtime** juga menyediakan **JIT Compiler** untuk melakukan **JIT compilation** yang digunakan untuk menerjemahkan **IL Code** atau **managed code** kedalam **Native Code**. Terdapat tiga macam **JIT Compile**r pada **.Net Framework** yaitu :
+
+
+
 ---------------------
 
 [1] Gordon, Alan. "The CLR", *.NET and COM Interoperability Handbook*. 2002. : Prentice Hall. pp 17
