@@ -38,9 +38,9 @@
 
 - ##### [Managed Code](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/ManagedCode.md)
 
-- ##### Mono Runtime
+- ##### [Mono Runtime](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/MonoRuntime.md)
 
-- ##### IL Assembly
+- ##### [IL Assembly](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/IL%20Assembly.md)
 
 - ##### IL Data Types
 
