@@ -23,6 +23,8 @@ DllImport dan static extern
 static extern int GetProcessHeap();
 ```
 
+### P/Invoke Example
+
 Contoh penggunaan **P/Invoke** :
 
 ```c#
@@ -50,3 +52,14 @@ Langkah-langkah dalam melakukan **P/Invoke** :
 - **Push Arguments** ke dalam **stack** kemudian **marshaling data**
 - **Transfer Control** untuk **unmanaged code**
 
+### P/Invoke Callback
+
+Sebuah **unmanaged code** dapat melakukan **call back** pada **managed code**
+
+**Unmanaged parameter** adalah sebuah **function pointer**
+
+Pada **managed code** pemberian **parameter** harus di delegasikan
+
+**P/Invoke** membuat **callback thunk**
+
+​	**Passes address of thunk** sebagai **callback parameter**.
