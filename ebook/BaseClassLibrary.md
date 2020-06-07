@@ -2,32 +2,29 @@
 
 ## Penulis : Gun Gun Febrianza
 
-## Common Type System (CTS)
+## Framework Base Class (FBC)
 
-**Common Type System (CTS)** menjelaskan karakteristik dari **types** yang bisa digunakan dalam sebuah **managed code**. Dalam **Common Language Infrastructure** terdapat dua macam **types** yaitu **Reference types** yang dialokasikan pada **global heap** dan **Value types** yang dialokasikan pada **global stack**. 
+**.Net Framework** memberikan sekumpulan **BCL (Base Class Library)** yang bisa digunakan agar bisa membuat aplikasi dengan cepat tanpa melakukan **reinvented the wheel**. 
 
-#### Stack & Heap
+Programmer bisa menggunakan **Framework Base Class** untuk membuat sebuah **objects**, mengeksplorasi **methods** yang dimilikinya, menerima **inheritance** untuk sebuah **class** dan menambahkan fungsionalitas yang baru pada class tersebut. Ada banyak sekali fungsionalitas dalam **framework base class** yang tersimpan di dalam sebuah **namespace** yang disebut dengan **namespace system.** 
 
-Saat sebuah program berjalan, data harus tersimpan dalam sebuah **memory**, pada program yang sedang berjalan terdapat dua daerah **memory** yang digunakan yaitu **Stack** dan **Heap**. **Stack** merupakan **array of memory** yang mempunyai karakteristik struktur data **last-in**, **first-out (LIFO)**. **Stack** pada **Common Type System** digunakan untuk menyimpan beberapa tipe data.
+Di dalamnya terdapat beberapa **class** yang bisa kita gunakan untuk :
 
-![](../assets/StackCommonTypeSystem.png)
+1.	Operasi **Input/Output (IO Operation)**
+2.	Memanipulasi **String**
+3.	Mengatur **Array, list, maps** dan **data structure** lainya
+4.	Akses terhadap suatu **files** dan **files system.**
+5.	Akses terhatap **Registry**
+6.	**Security**
+7.	**Windows Message**
+8.	**Database Management**
+9.	Evaluasi fungsi matematika
+10.	Melukis menggunakan GDI+ 
+11.	Manajemen **errors** dan **exceptions**
 
-Ilustrasi **Stack** pada **Common Type System (CTS)** [1]
+![](../assets/BaseClassLibrary.png)
 
-**Heap** adalah daerah **memory** dimana terdapat alokasi untuk menyimpan **objects** yang selanjutnya bisa dihapus dari **heap**. **Garbage Collector** pada **Common Language Runtime (CLR)** akan secara otomatis membersihkan **heap object** yang sudah tidak lagi diakses. 
 
-Gambar di bawah ini adalah ***Ilustrasi Memory Heap*** pada ***Common Type System* (CTS)** :
-
-![](../assets/MemoryHeap.png)
-
-Pada ilustrasi gambar di atas terdapat tiga **object** dalam **Heap** : 
-
-Pada gambar 2 salah satu **object** dalam **heap** sudah tidak digunakan lagi, 
-
-Pada gambar 3 **Garbage Collector**menemukan terdapat **object** yang sudah tidak digunakan lagi dan 
-
-Pada gambar ke 4 **object** pada **heap** sudah dibersihkan oleh **Garbage Collector**.
 
 ---------------------
 
-[1] Solis, Daniel.M*.* "Types, Storage & Variable", *Illustrated C#* USA : Appress, 2012. pp 41
