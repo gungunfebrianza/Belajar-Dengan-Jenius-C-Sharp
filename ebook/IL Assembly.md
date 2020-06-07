@@ -57,7 +57,28 @@ Ada banyak sekali **Opcode** yang bisa dibaca pada lampiran, kita akan mengkajin
    | *ldc*      | Memuat sebuah nilai konstanta ke dalam evaluation stack.    |
    | *ldobj*    | Memuat sebuah object ke dalam **evaluation stack.**         |
 
-   
+Di bawah ini adalah kerangka dasar dari kode **IL Assembly** secara general.
+
+```c#
+1 .assembly extern mscorlib {}
+2 .assembly FirstApp {}
+3 .module FirstApp.exe
+4 .namespace FirstApp
+5 {
+6     .class Test
+7     {
+8         .method public static void Main() il managed
+9         {
+10            IL_0000:.entrypoint
+11            IL_0001:.maxstack    1
+12            IL_0002: ldstr        "Hello"
+13            IL_0003: call         void [mscorlib] System.Console:: WriteLine(string)
+14            IL_0005: ret
+15         }
+16     }
+17 }
+
+```
 
 
 
