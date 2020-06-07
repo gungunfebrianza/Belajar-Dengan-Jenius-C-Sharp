@@ -10,7 +10,7 @@
 
 Saat sebuah program berjalan, data harus tersimpan dalam sebuah **memory**, pada program yang sedang berjalan terdapat dua daerah **memory** yang digunakan yaitu **Stack** dan **Heap**. **Stack** merupakan **array of memory** yang mempunyai karakteristik struktur data **last-in**, **first-out (LIFO)**. **Stack** pada **Common Type System** digunakan untuk menyimpan beberapa tipe data.
 
-![](C:/Users/Gun Gun Febrianza/Pictures/Belajar-Dengan-Jenius-C-Sharp/assets/StackCommonTypeSystem.png)
+![](../assets/StackCommonTypeSystem.png)
 
 Ilustrasi **Stack** pada **Common Type System (CTS)** [1]
 
@@ -18,7 +18,7 @@ Ilustrasi **Stack** pada **Common Type System (CTS)** [1]
 
 Gambar di bawah ini adalah ***Ilustrasi Memory Heap*** pada ***Common Type System* (CTS)** :
 
-![](C:/Users/Gun Gun Febrianza/Pictures/Belajar-Dengan-Jenius-C-Sharp/assets/MemoryHeap.png)
+![](../assets/MemoryHeap.png)
 
 Pada ilustrasi gambar di atas terdapat tiga **object** dalam **Heap** : 
 
