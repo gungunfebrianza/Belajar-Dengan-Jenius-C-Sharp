@@ -16,7 +16,7 @@
 
 - ##### [Common Language Runtime (CLR)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/CLR.md)
 
-- **Framework Base Class (FBC)**
+- [**Framework Base Class (FBC)**](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/BaseClassLibrary.md)
 
 - ##### Common Type System (CTS)
 

@@ -2,25 +2,13 @@
 
 ## Penulis : Gun Gun Febrianza
 
-## Framework Base Class
+## Common Type System (CTS)
 
-**.Net Framework** memberikan sekumpulan **BCL (Base Class Library)** yang bisa digunakan agar bisa membuat aplikasi dengan cepat tanpa melakukan ***reinvented the wheel***. **Programmer** bisa menggunakan **Framework Base Class** untuk membuat sebuah **objects**, mengeksplorasi **methods** yang dimilikinya, menerima **inheritance** untuk sebuah class dan menambahkan fungsionalitas yang baru pada **class** tersebut. 
+**Common Type System (CTS)** menjelaskan karakteristik dari **types** yang bisa digunakan dalam sebuah **managed code**. Dalam **Common Language Infrastructure** terdapat dua macam **types** yaitu **reference types** yang dialokasikan pada **global heap** dan **value types** yang dialokasikan pada **global stack**. 
 
-Ada banyak sekali fungsionalitas dalam **framework base class** yang tersimpan di dalam sebuah **namespace** yang disebut dengan **namespace system**. Di dalamnya terdapat beberapa **class** yang bisa kita gunakan untuk :
+Saat sebuah program berjalan, data harus tersimpan dalam sebuah **memory**, pada program yang sedang berjalan terdapat dua daerah **memory** yang digunakan yaitu stack dan heap. **Stack** merupakan **array of memory** yang mempunyai karakteristik struktur data **last-in**, **first-out (LIFO)**. **Stack** pada **Common Type System** digunakan untuk menyimpan beberapa tipe data.
 
-1.	Operasi **Input/Output** (**IO Operation**)
-2.	Memanipulasi **String**
-3.	Mengatur **Array**, **list**, **maps** dan **data structure** lainya
-4.	Akses terhadap suatu **files** dan **files system.**
-5.	Akses terhatap **Registry**
-6.	**Security**
-7.	**Windows Message**
-8.	**Database Management**
-9.	Evaluasi fungsi matematika
-10.	Melukis menggunakan **GDI**+ 
-11.	Manajemen **errors** dan **exceptions**
 
-![](../assets/BaseClassLibrary.png)
 
 ---------------------
 
