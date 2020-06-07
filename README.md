@@ -20,11 +20,11 @@
 
 - [**Framework Base Class (FBC)**](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/BaseClassLibrary.md)
 
-- ##### Common Type System (CTS)
+- ##### [Common Type System (CTS)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/CTS.md)
 
   - **Stack & Heap**
 
-- ##### Common Language Specification (CLS)
+- ##### [Common Language Specification (CLS)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/CLS.md)
 
 - ##### [**P/Invoke**](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/PInvoke.md)
   - ##### P/Invoke Example
