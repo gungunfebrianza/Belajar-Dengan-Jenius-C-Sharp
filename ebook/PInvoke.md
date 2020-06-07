@@ -58,7 +58,7 @@ Pada **managed code** pemberian **parameter** harus di delegasikan
 
 **P/Invoke** membuat **callback thunk**
 
-​	**Passes address of thunk** sebagai **callback parameter**.<img src="assets/pinvoke-callback.PNG" alt="pinvoke-callback" style="zoom:67%;" />
+​	**Passes address of thunk** sebagai **callback parameter**.<img src="../assets/pinvoke-callback.PNG" alt="pinvoke-callback" style="zoom:67%;" />
 
 ### Callback Example
 
@@ -100,7 +100,7 @@ Kompilasi menggunakan **Two-stage compilation** :
 - **C# Compiler** : **C# Code** -> CIL
 - **JIT Compiler** : CIL -> **Native Code**
 
-<img src="assets/2stagecompilation.png" style="zoom:67%;" />
+<img src="../assets/2stagecompilation.png" style="zoom:67%;" />
 
 ### Common Intermediate Language
 
