@@ -8,7 +8,11 @@
 
 Hasil akhir dari pemrograman **CLR-Compliance a**dalah **managed code** atau **managed module** yaitu berupa **executable** atau **dynamic link library**. Perbedaan antara keduanya adalah pada **executable** tersedia sebuah **entrypoint**  sebagai tempat eksekusi pertama sementara pada **dynamic link library** tidak terdapat sebuah **entrypoint**.
 
+Kompilasi IL code ke Managed Module :
 
+
+
+Pada sebuah managed module terdapat beberapa part.
 
 ---------------------
 
