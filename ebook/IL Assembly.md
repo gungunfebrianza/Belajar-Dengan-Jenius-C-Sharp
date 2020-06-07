@@ -80,7 +80,18 @@ Di bawah ini adalah kerangka dasar dari kode **IL Assembly** secara general.
 
 ```
 
-
+Untuk bisa menggunakan **IL Assembly** sebuah struktur atau kerangka dasar yang terdiri dari kumpulan **IL directive** harus dibuat terlebih dahulu, agar selanjutnya sebuah **IL opcode** bisa digunakan. Adapun penjelasan setiap barisnya adalah sebagai berikut :
+1.	Pada baris kode pertama terdapat **IL directive .assembly**, selanjutnya terdapat **IL attribute extern** yang membuat baris ini memiliki kemampuan untuk mendapatkan referensi **mscorlib**. **Mscorlib** adalah sebuah **dynamic link library** yang menjadi inti dari **Framework Base Class** yang di dalamnya terdapat kumpulan **namespace**. 
+2.	Pada baris kode kedua hanya terdapat **IL directive** yang selanjutnya diikuti oleh **identifier** dengan nama **FirstApp**, sehingga sifat dari kode adalah memberi nama untuk **assembly** itu sendiri. 
+3.	Pada baris ketiga terdapat **directive module** dengan **identifier** **FirstApp.exe** yang berarti bahwa keluaran akhirnya ditujukan untuk membuat sebuah **executable**. 
+4.	Pada baris keempat terdapat **IL directive** **.namespace**, diikuti **identifier** dengan nama **FirstApp**. 
+5.	Pada baris keenam terdapat **IL directive .class** yang digunakan untuk merepresentasikan **class** yang ingin bangun di **level intermediate** pada program yang akan dibuat. 
+6.	Pada baris ke delapan terdapat **IL directive .method** yang disertai dengan **IL attribute** dengan visibilitas **public**, **modifier static** dan **return** berupa **void**.  **Attribute il managed** menyatakan bahwa di dalam **method** tersebut akan terdapat **IL code**. 
+7.	Pada baris kode ke sepuluh terdapat **IL directive .entrypoint** yang akan menjadi tempat pertama yang dieksekusi ketika sebuah **executable** berjalan (**running time**). Pada baris kode kesepuluh juga terdapat awalan **string “IL_0000”** yang disebut dengan **IL Label**. Kode label ini bersifat opsional bisa ditambahkan atau tidak.
+8.	Pada baris kode ke sebelas terdapat **IL directive maxstack** yang berarti variabel yang bisa disimpan kedalam **evaluation stack** hanya 1.
+9.	Pada baris kode ke dua belas terdapat kode **mnemonic ldstr** yang berfungsi untuk memuat **string** dari dalam **memory** ke dalam **evaluation stack**. 
+10.	Pada baris kode ke tiga belas instruksi call digunakan untuk memanggil suatu fungsi di dalam **mscorlib**. Fungsi yang dimaksud adalah suatu **method** di dalam suatu **class** pada suatu **namespace** yang disediakan dalam **mscorlib**. Fungsi yang dipanggil adalah **method** **writeline** dengan **parameter** **string** yang berada di dalam **class console** dan **namespace system.**
+11.	Pada baris kode keempat instruksi **ret** dipanggil atau dikenal dengan **return**, namun pada kode di atas **return** berupa **void**. 
 
 ---------------------
 
