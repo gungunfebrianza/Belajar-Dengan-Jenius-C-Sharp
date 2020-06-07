@@ -47,10 +47,14 @@ Selain itu **Common Language Runtime** juga menyediakan berbagai pelayanan diant
 
 2. **Econo-JIT** hanya melakukan kompilasi pada beberapa **method** yang dipanggil saat  **runtime**. **Method** yang telah dikompilasi akan dihapus jika sudah tidak digunakan lagi.
 
-   
+   ![](../assets/EconoJITCompilation.png)
 
-3. **Normal-JIT** hanya melakukan kompilasi pada beberapa **method** yang dipanggil saat  runtime. Method dikompilasi saat pertama kali dipanggil dan disimpan dalam sebuah **cache** atau sering kali disebut “Jitted”. Ketika method yang sama dipanggil kembali, **method** yang telah dikompilasi di dalam **cache** yang akan digunakan untuk dieksekusi.
+3. **Normal-JIT** hanya melakukan kompilasi pada beberapa **method** yang dipanggil saat  **runtime**. **Method** dikompilasi saat pertama kali dipanggil dan disimpan dalam sebuah **cache** atau sering kali disebut “**Jitted**”. Ketika **method** yang sama dipanggil kembali, **method** yang telah dikompilasi di dalam **cache** yang akan digunakan untuk dieksekusi.
+
+   ![](../assets/NormalJITCompilation.png)
 
 ---------------------
 
 [1] Gordon, Alan. "The CLR", *.NET and COM Interoperability Handbook*. 2002. : Prentice Hall. pp 17
+
+[2] Tapadiya, Pradeep Kumar. "Essential of .Net Framework", *NET Programming: A Practical Guide Using C#.* pp 142 
