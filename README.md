@@ -4,7 +4,15 @@
 
 ### Content Table
 
-##### Runtime Infrastructure
+#### Runtime Infrastructure
+
+- ##### Two-stage Translation
+
+- ##### Object Code
+
+- ##### Linker
+
+- ##### Loader
 
 - ##### [Common Intermediate Language (CIL)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/CIL.md)
 
@@ -29,6 +37,14 @@
 - ##### [Dynamic Link Library (DLL)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/Dll.md)
 
 - ##### [Managed Code](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/ManagedCode.md)
+
+- ##### Mono Runtime
+
+- ##### IL Assembly
+
+- ##### IL Data Types
+
+- ##### Evaluation Stack
 
 - ##### [**P/Invoke**](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/PInvoke.md)
   - ##### P/Invoke Example
