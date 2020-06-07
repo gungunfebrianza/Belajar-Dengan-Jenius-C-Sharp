@@ -106,6 +106,8 @@ Kompilasi menggunakan **Two-stage compilation** :
 - **C# Compiler** : **C# Code** -> CIL
 - **JIT Compiler** : CIL -> **Native Code**
 
+<img src="assets/2stagecompilation.png" style="zoom:67%;" />
+
 ### Common Intermediate Language
 
 - **Assembly**-**like** **statement**
