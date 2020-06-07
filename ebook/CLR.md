@@ -31,11 +31,25 @@ Selain itu **Common Language Runtime** juga menyediakan berbagai pelayanan diant
 6.	Manajemen **exception** dan **error**.
 **CLR** juga mempunyai peran dalam pengaturan **garbage collection** yang secara otomatis menghapus terjadinya **memory leaks**. Fenomena **memory leaks** terjadi saat sebuah **objects** sudah tidak lagi mengacu pada **Garbage Collection** yang selanjutnya akan dibersihkan agar tercipta manajemen **memory** yang efisien.
 
+
+
+#### Manage & Unmanaged Code
+
 ![](../assets/ManagedUnmanagedCode.png)
 
 **Common Language Runtime** juga menyediakan **JIT Compiler** untuk melakukan **JIT compilation** yang digunakan untuk menerjemahkan **IL Code** atau **managed code** kedalam **Native Code**. Terdapat tiga macam **JIT Compile**r pada **.Net Framework** yaitu :
 
+1. **Pre-JIT** melakukan kompilasi pada seluruh **source code** kedalam **native code** dengan **single compilation cycle**. Strategi ini dilakukan dengan memanfaatkan **NGEN (Native Image Generator)** yang disediakan di dalam **.Net Framework**. Dengan **NGEN proses precompile** bisa dilakukan dan instalasi **assembly** kedalam sebuah **region** yang disebut dengan **native image cache** [2]. 
 
+   Sebelum akesekusi sebuah **Assembly CLR** akan mencari kedalam **native image cache** untuk melihat apakah terdapat **precompiled assembly** di dalamnya. **CLR** mampu mengenali setiap **assembly** karena setiap **cache** memiliki pengenal unik (**MVID**)
+
+   ![](../assets/pre-jitcompilation.png)
+
+2. **Econo-JIT** hanya melakukan kompilasi pada beberapa **method** yang dipanggil saat  **runtime**. **Method** yang telah dikompilasi akan dihapus jika sudah tidak digunakan lagi.
+
+   
+
+3. **Normal-JIT** hanya melakukan kompilasi pada beberapa **method** yang dipanggil saat  runtime. Method dikompilasi saat pertama kali dipanggil dan disimpan dalam sebuah **cache** atau sering kali disebut “Jitted”. Ketika method yang sama dipanggil kembali, **method** yang telah dikompilasi di dalam **cache** yang akan digunakan untuk dieksekusi.
 
 ---------------------
 
