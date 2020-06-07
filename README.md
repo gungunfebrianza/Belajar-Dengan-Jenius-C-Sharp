@@ -4,9 +4,9 @@
 
 ### Content Table
 
-#### Runtime Infrastructure
+#### [Runtime Infrastructure](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/Runtime%20Infrastructure.md)
 
-- ##### Two-stage Translation
+- ##### [Two-stage Translation](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/TwoStageTranslation.md)
 
 - ##### [Object Code](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/ObjectCode.md)
 
