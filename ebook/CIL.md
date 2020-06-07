@@ -12,7 +12,7 @@ Kemudian jika dikaji berdasarkan **scope** terminologi, **CIL** adalah **term** 
 
 Sebutan untuk keduanya sering disederhanakan yaitu **IL (Intermediate Language)**.  Namun **IL Code** dan **IL Assembly** sendiri adalah sesuatu yang berbeda, **IL Code** sudah berbentuk **binary code** sementara **IL assembly** adalah bahasa **low level** yang bukan berbentuk **binary**.
 
-
+**IL Assembly** memiliki **instruction** yang juga sama dimiliki oleh **Native Assembly Language**, sebagai contoh jika ingin melakukan operasi penjumlahan maka menggunakan **Add instruction**, untuk pengurangan menggunakan **Sub instruction**, dan **IL Assembly** juga memiliki **Instruction Set** yang sama seperti pada **Native Assembly Language** pada umumnya. 
 
 
 
