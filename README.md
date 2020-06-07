@@ -8,11 +8,11 @@
 
 - ##### Two-stage Translation
 
-- ##### Object Code
+- ##### [Object Code](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/ObjectCode.md)
 
-- ##### Linker
+- ##### [Linker](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/Linker.md)
 
-- ##### Loader
+- ##### [Loader](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/Loader.md)
 
 - ##### [Common Intermediate Language (CIL)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/CIL.md)
 
