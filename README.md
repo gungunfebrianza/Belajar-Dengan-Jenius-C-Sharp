@@ -98,3 +98,36 @@ Untuk menulis  **Managed C++ Code**
 Efektif untuk melakukan **native access** pada **C++ Libraries**
 
 - Membuat **managed wrapper**
+
+### CIL
+
+Kompilasi menggunakan **Two-stage compilation** :
+
+- **C# Compiler** : **C# Code** -> CIL
+- **JIT Compiler** : CIL -> **Native Code**
+
+### Common Intermediate Language
+
+- **Assembly**-**like** **statement**
+- Terdapat **Clasess**, **structs**, **inheritance** & **methods**
+
+Contoh CIL :
+
+```c#
+.assembly extern mscorlib {} //automatically added
+.assembly hello {}
+.class Program {
+	.method static public void Main() cil managed {
+	.entrypoint //designates this method as the entry pt
+	.locals init (string name) //create a local var
+        ldstr “World" //load the string onto eval stack
+        stloc.0 //store the string into the first local var
+        ldstr "Hello, {0}!"
+        ldloc name //load local var onto eval stack
+        call void [mscorlib] System.Console::WriteLine(string, object) 
+    	//call method with stack items as params
+        ret
+	}
+}
+```
+
