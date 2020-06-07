@@ -42,7 +42,7 @@ namespace HelloWorld {
 
 Hasil dari kode di atas memiliki perbedaan :
 
-<img src="C:\Users\Gun Gun Febrianza\Pictures\Belajar-Dengan-Jenius-C-Sharp\assets\pinvoke1.PNG" style="zoom:67%;" />
+<img src="assets/pinvoke1.PNG" style="zoom:67%;" />
 
 Langkah-langkah dalam melakukan **P/Invoke** :
 
@@ -64,7 +64,7 @@ Pada **managed code** pemberian **parameter** harus di delegasikan
 
 **P/Invoke** membuat **callback thunk**
 
-​	**Passes address of thunk** sebagai **callback parameter**.<img src="C:\Users\Gun Gun Febrianza\Pictures\Belajar-Dengan-Jenius-C-Sharp\assets\pinvoke-callback.PNG" alt="pinvoke-callback" style="zoom:67%;" />
+​	**Passes address of thunk** sebagai **callback parameter**.<img src="assets/pinvoke-callback.PNG" alt="pinvoke-callback" style="zoom:67%;" />
 
 ### Callback Example
 
