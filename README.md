@@ -88,3 +88,13 @@ public class SampleClass {
 }
 ```
 
+### C++/CLI
+
+Untuk menulis  **Managed C++ Code**
+
+- **Compile** dengan /**CLR**
+- **Generate CIL** dari **C++**
+
+Efektif untuk melakukan **native access** pada **C++ Libraries**
+
+- Membuat **managed wrapper**
