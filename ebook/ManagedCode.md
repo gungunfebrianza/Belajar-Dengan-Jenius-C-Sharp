@@ -21,7 +21,11 @@ Pada sebuah **managed** **module** terdapat beberapa **part** :
 | Metadata    | Mengandung informasi yang menjelaskan **class** dan **types** yang digunakan di dalam sebuah **managed code** baik itu **executable** ataupun **dynamic link library.** |
 | IL Code     | Kode yang diproduksi kompiler, saat **runtime CLR** akan menerjemahkan **IL code** ke **native code**. |
 
+**IL Code** atau **Common Intermediate Language** bersifat **platform-agnostic** atau **platform-independent instruction** sehingga bisa berjalan diberbagai sistem operasi dan **target machine** yang telah mendukung **Common Language Runtime (CLR).** Penerapan pemrograman berbahasa Indonesia atau ILP yang sempat penulis kembangkan juga menggunakan skema **platform-agnostic** atau **platform-independent instruction** dengan target berupa **CIL** atau **IL Code**.
 
+Contoh **Platform-independent Instruction** :
+
+![](../assets/Platform-IndependentInstruction.png)
 
 ---------------------
 
