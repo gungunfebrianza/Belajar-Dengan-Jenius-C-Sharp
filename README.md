@@ -10,7 +10,16 @@
 
 - ##### [Object-oriented Programming](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/ObjectOrientedProgramming.md)
 
-#### C#
+#### [C#](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/C%23History.md)
+
+#### Data Type
+
+- Data
+- Types
+- Data Types
+- Strongly & Weakly Typed
+- C# Data Type
+- C# Data Type Convertion
 
 #### [Runtime Infrastructure](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/Runtime%20Infrastructure.md)
 
