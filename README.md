@@ -4,6 +4,14 @@
 
 ### Content Table
 
+#### [Programming Paradigm](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/ProgrammingParadigm.md)
+
+- ##### [Imperative & Declarative Programming](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/ImperativeDeclarative.md)
+
+- ##### [Object-oriented Programming](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/ObjectOrientedProgramming.md)
+
+#### C#
+
 #### [Runtime Infrastructure](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/Runtime%20Infrastructure.md)
 
 - ##### [Two-stage Translation](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/TwoStageTranslation.md)
