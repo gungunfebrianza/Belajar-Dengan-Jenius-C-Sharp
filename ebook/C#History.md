@@ -12,7 +12,7 @@ Berdasarkan sejarah pada tahun 1967 **BCPL** dikembangkan oleh **Martin Richards
 
 Alur sejarah pengembanganya dapat dilihat pada gambar di bawah ini :
 
-<img src="../assets/C#History.png" style="zoom: 50%;" />
+<img src="../assets/CSharpHistory.png" style="zoom: 50%;" />
 
 Bahasa **C#** memiliki tujuh karakteristik unggulan diantaranya adalah sebagai berikut :
 1.	**Simplicity**
