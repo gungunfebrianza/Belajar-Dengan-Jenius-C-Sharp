@@ -42,9 +42,9 @@
 
 - ##### [IL Assembly](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/IL%20Assembly.md)
 
-- ##### IL Data Types
+- ##### [IL Data Types](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/ILDataType.md)
 
-- ##### Evaluation Stack
+- ##### [Evaluation Stack](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/EvaluationStack.md)
 
 - ##### [**P/Invoke**](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/PInvoke.md)
   - ##### P/Invoke Example
