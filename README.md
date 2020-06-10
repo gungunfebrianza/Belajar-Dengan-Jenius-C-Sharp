@@ -2,6 +2,10 @@
 
 ## Penulis : Gun Gun Febrianza
 
+
+
+<img src="Cover.png" style="zoom: 25%;" />
+
 ### Content Table
 
 #### [Programming Paradigm](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-C-Sharp/blob/master/ebook/ProgrammingParadigm.md)
