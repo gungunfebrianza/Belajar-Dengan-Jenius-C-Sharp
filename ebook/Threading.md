@@ -12,7 +12,9 @@ Ketika suatu **program** yang tersimpan di dalam **hardisk** di muat ke dalam **
 
 Sebuah **process** dapat memiliki dua atau lebih **threads** yang dapat berbagi **data** dan **resources**, jika kita ingin melakukan sharing **resources** antar **threads** diperlukan kecermatan agar tidak terjadi **deadlock**.
 
+Sebuah sistem operasi juga melakukan manajemen **Thread Pool** yang di dalamnya terdapat sekumpulan threads, menunggu pekerjaan yang akan dialokasikan agar dapat dieksekusi secara **concurrent**. 
 
+Menggunakan **threads** dari dalam **thread pools** lebih baik dari pada melakukan inisiasi **thread** baru, dengan begitu kita dapat mencegah **delay** yang disebabkan dari proses pembuatan **thread** dan penghapusan **thread**. Hal ini membuat performance aplikasi menjadi lebih baik.
 
 ---------------------
 
