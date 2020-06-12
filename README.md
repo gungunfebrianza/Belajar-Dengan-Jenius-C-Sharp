@@ -4,7 +4,7 @@
 
 
 
-<img src="Cover.png" style="zoom: 25%;" />
+<img src="Cover.png" style="zoom: 67%;" />
 
 ### Content Table
 

@@ -29,6 +29,8 @@ Sebuah **Multi-core processor** memiliki lebih dari satu **processor** dalam sat
 
 Jika kita menambahkan konsep **CPU Schedulling** pada konteks kajian ini maka sebuah **CPU** dapat digunakan untuk menjalankan beberapa aplikasi sekaligus dalam satu waktu, semuanya dapat diwujudkan dengan memanfaatkan konsep **schedulling** atau **switching** yang diatur oleh **CPU Schedulling Algorithm**.
 
+### Hyper-threading
+
 
 
 ---------------------
