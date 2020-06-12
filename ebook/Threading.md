@@ -6,7 +6,7 @@
 
 Ketika suatu **program** yang tersimpan di dalam **hardisk** di muat ke dalam **memory**, maka program tersebut akan menjadi suatu **process**. Pada kajian **operating system**, **process** adalah sebuah **address space** dalam **memory**. Setiap aplikasi baik itu **dekstop**, **web** atau **mobile application** memerlukan **process** agar dapat berjalan.
 
-
+**Process** memberikan jaminan keamanan pada sebuah **program** agar tidak mengalami konflik dengan **program** lainnya, mencegah terjadinya insiden dimana alokasi data dari suatu **process** dapat dibaca oleh **process** lainnya. Sistem operasi memberikan sebuah model isolasi agar program dapat dijalankan dan dihentikan secara independen.
 
 
 
