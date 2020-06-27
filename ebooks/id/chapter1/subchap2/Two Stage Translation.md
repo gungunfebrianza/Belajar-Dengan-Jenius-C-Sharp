@@ -20,9 +20,11 @@ Pada **stage** pertama kompiler menerjemahkan **high-level language** ke **Inter
 
 ![](../../../assets/TwoStageTranslation.png)
 
-Sebagai contoh kompiler yang digunakan untuk pemrograman C# menggunakan **schema Two Stage Translation, CIL Generator** akan menghasilkan **target language** berupa **IL Assembly.** 
+Sebagai contoh kompiler yang digunakan untuk pemrograman C# menggunakan **schema Two Stage Translation. CIL Generator** akan menghasilkan **target language** berupa **IL Assembly.** 
 
 **Stage** selanjutnya adalah **IL Assembly** sebagai **intermediate language** diterjemahkan kedalam **Low-level Machine Code** oleh sebuah program bernama **IL Assembler.** 
+
+![](../../../assets/IntermediateLanguageTarget.png)
 
 ---------------------
 
